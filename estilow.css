@@ -5,9 +5,83 @@
     src: url('_fonts/bubblegum-sans-regular.otf');
 }
 
+form{
+   margin: 0 auto;
+   width: 350px;
+   padding: 2em;
+   border: 3px solid rgb(255, 0, 157);
+   border-radius: 2em;
+   background-color: rgb(255, 0, 85);
+   text-align: center;
+}
+
+ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+form li{
+   margin-top:top;
+   height: 20px;
+}
+
+label{
+   display: inline-block;
+   width: 150px;
+   text-align: right;
+   background-color: rgb(140, 0, 255);
+}
+
+input, textarea{
+   font: 1em sans-serif;
+   width: 150px;
+   box-sizing: border-box;
+   border: 1px solid rgb(118, 118, 230);
+   background-color: white;
+}
+
+textarea{
+   vertical-align: top;
+   height: 5em;
+
+}
+
+
 h1{
    font-size: 30px;
+   color: rgb(15, 93, 15);
 }
+
 form{
    font-size: 12px;
+   
+}
+
+
+input[type=submit]{
+  border: none;
+  border-radius: 25px;
+  padding: 15px 15px;
+  outline: none;
+  background-color:rgb(89, 59, 224);
+  color: white;
+  font-size: 14px;
+  box-shadow: 0px 10px rgb(0, 225, 255);
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(58, 2, 58);
+  color: blueviolet;
+  font-size: 25px;
+  box-shadow: 0px 10px rgb(255, 0, 212);
+}
+
+input[type=submit]:active{
+  background-color:rgba(59, 224, 174, 0.507);
+  box-shadow: 0px 10px rgb(4, 0, 255);
+  transform: translateY(4px);
+  color: white;
+  font-size: 30px;
 }
